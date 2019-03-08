@@ -37,6 +37,10 @@ export default {
       {
         title: "4. Service Workers",
         router: "/service-workers"
+      },
+      {
+        title: "Instructions",
+        router: "/instructions"
       }
     ]
   })

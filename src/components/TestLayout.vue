@@ -5,6 +5,7 @@
       <div v-else-if="test === 'balanced-strings'"><balanced-string /></div>
       <div v-else-if="test === 'debugging-code'"><debugging-code /></div>
       <div v-else-if="test === 'service-workers'"><service-workers /></div>
+      <div v-else-if="test === 'instructions'"><instructions /></div>
       <div v-else>NOT FOUND</div>
     </v-card>
     <v-layout row wrap>
@@ -20,6 +21,7 @@ import PrimeNumbers from "./PrimeNumbers";
 import BalancedString from "./BalancedString";
 import DebuggingCode from "./DebuggingCode";
 import ServiceWorkers from "./ServiceWorkers";
+import Instructions from "./Instructions";
 
 export default {
   name: "TestLayout",
@@ -28,7 +30,8 @@ export default {
     PrimeNumbers,
     BalancedString,
     DebuggingCode,
-    ServiceWorkers
+    ServiceWorkers,
+    Instructions
   }
 };
 </script>
