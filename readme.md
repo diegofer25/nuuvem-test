@@ -1,5 +1,5 @@
 # RUN
 
-NPM INSTALL
+npm install
 
-NPM RUN SERVE
+npm run serve
